@@ -1,0 +1,28 @@
+body { 
+    background-color: #f0f0f0; /* Define a cor de fundo */  
+    font-family: Arial, sans-serif; /* Define a família de fontes */
+}
+
+h1 { 
+    color: #444; /* Define a cor do título */
+    font-size: 2em; /* Define o tamanho da fonte */
+    margin-bottom: 20px; /* Define a margem inferior */
+    text-align: center; /* Centraliza o título */
+}
+
+p { 
+    color: #333; /* Define a cor do texto */
+    line-height: 1.6; /* Define a altura da linha */
+    margin-bottom: 15px; /* Define a margem inferior */
+}
+
+button { 
+    background-color: #007BFF; /* Define a cor de fundo do botão */
+    color: #fff; /* Define a cor do texto do botão */
+    border: none; /* Remove a borda */
+    padding: 10px 20px; /* Define o preenchimento interno */
+    font-size: 1em; /* Define o tamanho da fonte */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+    border-radius: 10px; /* Adiciona cantos arredondados */
+    animation : pulse 4s infinite; /* Adiciona uma animação de pulsação */
+}
