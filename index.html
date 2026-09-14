@@ -11,16 +11,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <!--define o título do documento-->
-    <link rel="stylesheet" href="style.css" />
-    <!--linka o arquivo CSS externo-->
+
+
+<link rel="stylesheet" href="style.css" />
+<!--linka o arquivo CSS externo-->
+
+
   </head>
 
   <body>
     <!--define o corpo do documento-->
-    <h1>Olá, mundo!</h1>
-    <!--define um título de nível 1-->
 
-```
+
+<h1>Olá, mundo!</h1>
+<!--define um título de nível 1-->
+
 <p>Bem-vindo ao meu site!</p>
 <!--define um parágrafo-->
 
@@ -45,18 +50,36 @@
 <h6>Sexto nível</h6>
 <!--define um título de nível 6-->
 
-<h2>Meu código em Python</h2>
+<!-- TITULO PARA MULTIPLICAÇÃO DE NÚMEROS -->
+<h2>Multiplicar dois números</h2>
+<!--CODIGO PARA MULTIPLICAÇÃO DE NÚMEROS-->
+<label for="numeroA">Digite o valor de A:</label> 
+<input type="number" id="numeroA">
 
-<pre><code>
-```
+<br><br>
 
-a = int(input("Digite o valor de A: "))
+<label for="numeroB">Digite o valor de B:</label>
+<input type="number" id="numeroB">
 
-b = int(input("Digite o valor de B: "))
+<br><br>
 
-c = a + b
+<button onclick="MULTIPLICAR()">Multiplicar</button>
 
-print(f"A soma de A e B é: {c}") </code></pre>
+<p id="resultado"></p>
+
+
+<script>
+  function MULTIPLICAR() {
+    let a = Number(document.getElementById("numeroA").value);
+    let b = Number(document.getElementById("numeroB").value);
+
+    let c = a * b;
+
+    document.getElementById("resultado").innerText =
+      "A multiplicação de A e B é: " + c;
+  }
+</script>
+
 
   </body>
 </html>
