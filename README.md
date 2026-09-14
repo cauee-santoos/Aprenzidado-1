@@ -1,2 +1,3 @@
 # Aprenzidado #1
-Aprendendo 
+Adicionando algumas coisas sobre Front-End. 
+Algumas coisas eu tenho um conhecimento relativamente bom. 
