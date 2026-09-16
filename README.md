@@ -47,7 +47,7 @@ Meu objetivo é continuar estudando programação, praticar bastante e evoluir m
 
 Este repositório representa o começo da minha jornada na programação. 🚀
 
-📈 Em aprendizado
+📈 Em Aprendizado
 
 Atualmente estou estudando e praticando:
 
