@@ -12,74 +12,70 @@
     <title>Document</title>
     <!--define o título do documento-->
 
-
-<link rel="stylesheet" href="style.css" />
-<!--linka o arquivo CSS externo-->
-
-
+    <link rel="stylesheet" href="style.css" />
+    <!--linka o arquivo CSS externo-->
   </head>
 
   <body>
     <!--define o corpo do documento-->
 
+    <h1>Olá, mundo!</h1>
+    <!--define um título de nível 1-->
 
-<h1>Olá, mundo!</h1>
-<!--define um título de nível 1-->
+    <p>Bem-vindo ao meu site!</p>
+    <!--define um parágrafo-->
 
-<p>Bem-vindo ao meu site!</p>
-<!--define um parágrafo-->
+    <img src="download (26).jpeg" alt="Descrição da imagem" />
+    <!--define uma imagem com descrição-->
 
-<img src="download (26).jpeg" alt="Descrição da imagem" />
-<!--define uma imagem com descrição-->
+    <!--define um botão com uma ação de clique-->
+    <button onclick="alert('Hello, World!')">Clique aqui</button>
 
-<!--define um botão com uma ação de clique-->
-<button onclick="alert('Hello, World!')">Clique aqui</button>
+    <h2>Subtítulo</h2>
+    <!--define um subtítulo-->
 
-<h2>Subtítulo</h2>
-<!--define um subtítulo-->
+    <h3>Terceiro nível</h3>
+    <!--define um título de nível 3-->
 
-<h3>Terceiro nível</h3>
-<!--define um título de nível 3-->
+    <h4>Quarto nível</h4>
+    <!--define um título de nível 4-->
 
-<h4>Quarto nível</h4>
-<!--define um título de nível 4-->
+    <h5>Quinto nível</h5>
+    <!--define um título de nível 5-->
 
-<h5>Quinto nível</h5>
-<!--define um título de nível 5-->
+    <h6>Sexto nível</h6>
+    <!--define um título de nível 6-->
 
-<h6>Sexto nível</h6>
-<!--define um título de nível 6-->
+    <!-- TITULO PARA MULTIPLICAÇÃO DE NÚMEROS -->
+    <h2>Multiplicar dois números</h2>
+    <!--CODIGO PARA MULTIPLICAÇÃO DE NÚMEROS-->
+    <label for="numeroA">Digite o valor de A:</label>
+    <input type="number" id="numeroA" />
 
-<!-- TITULO PARA MULTIPLICAÇÃO DE NÚMEROS -->
-<h2>Multiplicar dois números</h2>
-<!--CODIGO PARA MULTIPLICAÇÃO DE NÚMEROS-->
-<label for="numeroA">Digite o valor de A:</label> 
-<input type="number" id="numeroA">
+    <br /><br />
+    <!-- Define o rótulo para o campo de entrada de B -->
+    <label for="numeroB">Digite o valor de B:</label>
+    <input type="number" id="numeroB" />
 
-<br><br>
-
-<label for="numeroB">Digite o valor de B:</label>
-<input type="number" id="numeroB">
-
-<br><br>
-
-<button onclick="MULTIPLICAR()">Multiplicar</button>
-
-<p id="resultado"></p>
-
-
-<script>
-  function MULTIPLICAR() {
-    let a = Number(document.getElementById("numeroA").value);
-    let b = Number(document.getElementById("numeroB").value);
-
-    let c = a * b;
-
-    document.getElementById("resultado").innerText =
-      "A multiplicação de A e B é: " + c;
-  }
-</script>
-
-
+    <br /><br />
+    <!-- Define o botão para realizar a multiplicação -->
+    <button onclick="MULTIPLICAR()">Multiplicar</button>
+    <!-- Define o parágrafo para exibir o resultado -->
+    <p id="resultado"></p>
+    <!-- Define o script JavaScript para realizar a multiplicação -->
+    <script>
+      <!-- Define a função MULTIPLICAR -->
+      function MULTIPLICAR() {
+        <!-- Obtém os valores de A e B a partir dos campos de entrada -->
+        let a = Number(document.getElementById("numeroA").value);
+        let b = Number(document.getElementById("numeroB").value);
+        <!-- Realiza a multiplicação de A e B -->
+        let c = a * b;
+        <!-- Exibe o resultado da multiplicação no parágrafo com id "resultado" -->
+        document.getElementById("resultado").innerText =
+          "A multiplicação de A e B é: " + c;
+      }
+    </script>
   </body>
 </html>
+<!-- Define o final do documento HTML -->
