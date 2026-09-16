@@ -17,7 +17,7 @@ p {
 }
 
 button { 
-    background-color: #007BFF; /* Define a cor de fundo do botão */
+    background-color: #445f7c; /* Define a cor de fundo do botão */
     color: #fff; /* Define a cor do texto do botão */
     border: none; /* Remove a borda */
     padding: 10px 20px; /* Define o preenchimento interno */
@@ -25,4 +25,23 @@ button {
     cursor: pointer; /* Muda o cursor ao passar sobre o botão */
     border-radius: 10px; /* Adiciona cantos arredondados */
     animation : pulse 4s infinite; /* Adiciona uma animação de pulsação */
+}
+
+img { 
+    display: block; /* Define a imagem como bloco */
+    margin: 20px auto; /* Centraliza a imagem horizontalmente */
+    width: 500px; /* Define a largura da imagem */
+    height: 500px; /* Define a altura da imagem */
+}
+
+h2 { 
+    color: #333; /* Define a cor do título */
+    font-size: 1.5em; /* Define o tamanho da fonte */
+    margin-bottom: 10px; /* Define a margem inferior */
+}
+
+label { 
+    display: block; /* Define o rótulo como bloco */
+    margin-bottom: 5px; /* Define a margem inferior */
+    font-weight: bold; /* Define o peso da fonte como negrito */
 }
